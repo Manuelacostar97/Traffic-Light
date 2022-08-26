@@ -10,3 +10,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.support{
+    width: 35px;
+    height: 50px;
+    margin: 0px auto;
+    background: black;
+}
+.semaforo {
+    background: black;
+    height: 450px;
+    width: 150px;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.red {
+    background: rgb(14, 13, 13);
+    border-radius: 100%;
+    height: 130px;
+}
+
+.yellow {
+    background: rgb(14, 13, 13);
+    border-radius: 100%;
+    height: 130px;
+}
+
+.green {
+    background: rgb(14, 13, 13);
+    border-radius: 100%;
+    height: 130px;
+}
+
+.glowRed {
+    box-shadow: 0px 0px 30px 15px rgba(255, 0, 0, 0.442);
+    background: rgb(255, 0, 0);
+    border-radius: 100%;
+    height: 130px;
+}
+
+.glowYellow {
+    box-shadow: 0px 0px 30px 15px rgba(255, 238, 0, 0.442);
+    background: yellow;
+    border-radius: 100%;
+    height: 130px;
+}
+
+.glowGreen {
+    box-shadow: 0px 0px 30px 15px rgba(38, 255, 0, 0.442);
+    background: green;
+    border-radius: 100%;
+    height: 130px;
+}

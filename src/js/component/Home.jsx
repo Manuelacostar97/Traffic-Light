@@ -36,12 +36,10 @@ const Home = () => {
 	}
 
 	function start () {
-		loopChange();
 		timers();
 	}
- 
 
-  return(
+return(
 		<>
 		<div className="support"></div>	
 		<div className="semaforo">
